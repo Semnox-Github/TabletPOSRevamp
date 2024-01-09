@@ -1,0 +1,121 @@
+{
+  "backgroundColor": "0xFF202020",
+
+  "cardStateSelectedLight": "0xFF000000",
+  "cardStateUnselectedLight": "0xFFF0F2F8",
+  "shadowColor": "0xFF000000",
+  "lightTextColor": "0xFFFFFFFF",
+  "darkTextColor": "0xFF000000",
+  "primaryColor": "0xFFFFFFFF",
+  "secondaryColor": "0xFF101216",
+  "darkGrey1":"0xFF3D3D3D",
+  "darkGrey2":"0xFF9A9A9A",
+  "sideNavListLabel": "0xFFFFFFFF",
+
+  "pageHeader": "0xFFFFFFFF",
+
+  "sideNavListBGSelectedState": "0xFF3D3D3D",
+
+  "sideNavListInnerShadow1": "0xFF666666",
+
+  "sideNavListInnerShadow2": "0xFF979797",
+
+  "scrollBarHandle": "0xFF3d3d3d",
+
+  "scrollArea": "0xFF101216",
+
+  "scrollDownInnerShadow1": "0xFF000000",
+  "scrollDownInnerShadow2": "0xFFFFFFFF",
+  "scrollDisabled": "0xFFD1D3D8",
+  "customerDetailBG": "0xFF2A2A2A",
+
+  "customerDetailInnerShadow1": "0xFF979797",
+
+  "customerDetailInnerShadow2": "0xFFFFFFFF",
+
+  "cartBG": "0xFF2A2A2A",
+
+  "cartItemCardBG": "0xFF3D3D3D",
+
+  "cartItemCardInnerShadow1": "0xFF575757",
+
+  "cartItemCardInnerShadow2": "0xFF333333",
+
+  "totalBackground": "0xFF202020",
+
+  "totalInnerShadow1": "0xFF3E3E3E",
+
+  "footerBG1": "0xFF242424",
+
+  "footerBG2": "0xFF242424",
+
+  "footerBG3": "0xFFFC5050",
+
+  "footerBG4": "0xFFB4ECFB",
+
+  "dialogBG": "0xFF2A2A2A",
+
+  "dialogHeaderBG": "0xFF2A2A2A",
+
+  "dialogHeaderInnerShadow": "0xFF7E7E7E",
+
+  "dialogFooterInnerShadow": "0xFF7E7E7E",
+
+  "tableRow1": "0xFF5D5D5D",
+
+  "tableRowSelectedState1": "0xFF3D3D3D",
+
+  "tableRowSelectedState2": "0xFF000000",
+
+  "tableRow2": "0xFF5D5D5D",
+
+  "tableRowSelectState2": "0xFF000000",
+
+  "textField1": "0xFF0B0B0B",
+
+  "textField1disabled": "0xFF202020",
+
+  "textField1Error": "0xFFFC5050",
+
+  "textbox2": "0xFFADADAD",
+
+  "textField3": "0xFFD1D3D8",
+
+  "textField4": "0xFF101216",
+
+  "checkboxLight": "0xFF5D5D5D",
+
+  "button1BG1": "0xFF3D3D3D",
+
+  "button1InnerShadow1": "0xFF575757",
+
+  "button1InnerShadow2": "0xFFFFFFFF",
+
+  "button2BG1": "0xFF5D5D5D",
+
+  "button2InnerShadow1": "0xFF575757",
+
+  "button2InnerShadow2": "0xFFFFFFFF",
+
+  "lightIcon": "0xFFFFFFFF",
+
+  "disabledIcon": "0xFFD1D3D8",
+
+  "primaryTextColor1": "0xFFFFFFFF",
+
+  "secondaryTextColor": "0xFF575859",
+
+  "light1": "0xFFFFFFFF",
+
+  "light2": "0xFFD1D3D8",
+
+  "footerBG5": "0xFF242424",
+
+  "transparentColor": "0x00000000",
+
+  "primaryColor2": "0xFF000000",
+
+  "primaryOpposite": "0xFFFFFFFF",
+
+  "cardBGPrimary" : "0xFFeff1fc"
+}

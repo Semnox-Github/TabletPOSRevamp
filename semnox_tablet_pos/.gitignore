@@ -1,0 +1,68 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+# Flutter/Dart/Pub related
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock./pubspec.lock
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+/semnox_tablet_pos/build/
+/semnox_tablet_pos/.dart_tool/
+/semnox_tablet_pos/.idea/
+/semnox_tablet_pos/android/local.properties
+/semnox_tablet_pos/android/.gradle/
+/semnox_tablet_pos/android/gradlew.bat
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+/semnox_tablet_pos/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+/semnox_tablet_pos/android/gradlew
+/semnox_tablet_pos/ios/.symlinks/
+/semnox_tablet_pos/ios/Pods/
+/semnox_tablet_pos/ios/Flutter/Generated.xcconfig
+/semnox_tablet_pos/ios/Runner/GeneratedPluginRegistrant.m
+/.vscode/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Runner.xcworkspace/xcuserdata/jishnu.xcuserdatad/UserInterfaceState.xcuserstate
+/ios/Flutter/Flutter.podspec
+/ios/Podfile.lock

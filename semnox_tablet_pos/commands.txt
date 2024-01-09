@@ -1,0 +1,13 @@
+1. Run the following commands when a new app icon is updated in pubspec file
+    > flutter pub get
+    > flutter pub run flutter_launcher_icons:main
+
+    References:
+    https://pub.dev/packages/flutter_launcher_icons
+    https://www.youtube.com/watch?v=RjNAxwcP3Tc
+
+2. Run the following command for creation of a new module
+    > flutter create --template=package module_name
+
+
+

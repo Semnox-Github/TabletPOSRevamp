@@ -1,0 +1,102 @@
+{
+  "dark_theme": [
+    {
+      "title": "SEARCH",
+      "icon": "assets/ic_search_light.png"
+    },
+    {
+      "title": "REVERSE",
+      "icon": "assets/ic_reverse_light.png"
+    },
+    {
+      "title": "NON CHARGEABLE",
+      "icon": "assets/ic_non_chargeable_light.png"
+    },
+    {
+      "title": "RESET",
+      "icon": "assets/ic_reset_light.png"
+    },
+    {
+      "title": "SET SEAT",
+      "icon": "assets/ic_set_seat_light.png"
+    },
+    {
+      "title": "SEARCH CLOSE",
+      "icon": "assets/ic_search_close_light.png"
+    },
+    {
+      "title": "CANCEL",
+      "icon": "assets/ic_cancel_light.png"
+    },
+    {
+      "title": "PROFILE",
+      "icon": "assets/ic_profile_light.png"
+    },
+    {
+      "title": "TRANSACTION DATE",
+      "icon": "assets/ic_transaction_date_light.png"
+    },
+    {
+      "title": "SET COURSE",
+      "icon": "assets/ic_set_course_light.png"
+    },
+    {
+      "title": "REPEAT",
+      "icon": "assets/ic_repeat_light.png"
+    },
+    {
+      "title": "PRINT",
+      "icon": "assets/ic_print_light.png"
+    }
+  ],
+  "light_theme": [
+    {
+      "title": "SEARCH",
+      "icon": "assets/ic_search_1.png"
+    },
+    {
+      "title": "REVERSE",
+      "icon": "assets/ic_reverse_1.png"
+    },
+    {
+      "title": "NON CHARGEABLE",
+      "icon": "assets/ic_non_chargeable_1.png"
+    },
+    {
+      "title": "RESET",
+      "icon": "assets/ic_reset_1.png"
+    },
+    {
+      "title": "SET SEAT",
+      "icon": "assets/ic_set_seat_1.png"
+    },
+    {
+      "title": "SEARCH CLOSE",
+      "icon": "assets/ic_search_close.png"
+    },
+    {
+      "title": "CANCEL",
+      "icon": "assets/ic_trash_1.png"
+    },
+    {
+      "title": "PROFILE",
+      "icon": "assets/ic_transaction_profile_1.png"
+    },
+    {
+      "title": "TRANSACTION DATE",
+      "icon": "assets/ic_transaction_date_1.png"
+    },
+    {
+      "title": "SET COURSE",
+      "icon": "assets/ic_set_course_1.png"
+    },
+    {
+      "title": "REPEAT",
+      "icon": "assets/ic_repeat_1.png"
+    },
+    {
+      "title": "PRINT",
+      "icon": "assets/ic_printer_1.png"
+    }
+  ]
+}

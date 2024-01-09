@@ -1,0 +1,202 @@
+name: semnox_tablet_pos
+description: Parafait POS app
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 2.170.0+13
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  intl:
+  flutter_dotenv: ^5.0.2
+  package_info_plus: ^3.0.2
+  dio_smart_retry: ^1.4.0
+  dio: ^4.0.6
+  freezed_annotation: ^2.2.0
+  sprintf: ^7.0.0
+  flutter_breadcrumb: ^1.0.1
+  provider: ^6.0.0
+  flutter_bloc: ^8.1.1
+  auto_size_text: ^3.0.0
+  auto_size_text_field: ^2.2.1
+  connectivity_plus: ^3.0.2
+  network_info_plus: ^3.0.1
+  universal_platform: ^1.0.0+1
+  share_extend: ^2.0.0
+  shared_preferences: ^2.0.15
+  fluttertoast: 8.1.1
+  permission_handler: ^10.2.0
+  instant: ^0.4.1
+  google_fonts: ^4.0.3
+  path_provider: ^2.0.11
+  flutter_bluetooth_serial: ^0.4.0
+  image_picker: ^0.8.7
+  local_session_timeout: ^2.2.0
+  flutter_udid: ^2.0.1
+  flutter_keyboard_visibility: ^5.4.1
+  sunmi_printer_plus: ^2.1.1
+  install_plugin: ^2.1.0
+  background_fetch: ^1.2.1
+
+  network_module:
+    path: ../semnox_core/core_modules/network_module
+  login_data:
+    path: ../semnox_core/core_modules/login_data
+  login_ui:
+    path: ../semnox_core/core_modules/login_ui
+  execution_context:
+    path: ../semnox_core/core_modules/execution_context
+  system_user_login_data:
+    path: ../semnox_core/core_modules/system_user_login_data
+  master_data:
+    path: ../semnox_core/core_modules/master_data
+  customer_ui:
+    path: ../semnox_core/core_modules/customer_ui
+  application_prefs_data:
+    path: ../semnox_core/core_modules/application_prefs_data
+  product_menu_ui:
+    path: ../semnox_core/core_modules/product_menu_ui
+  product_menu_data:
+    path: ../semnox_core/core_modules/product_menu_data
+  product_config_ui:
+    path: ../semnox_core/core_modules/product_config_ui
+  notificationbar_ui:
+    path: ../semnox_core/core_modules/notificationbar_ui
+  customer_data:
+    path: ../semnox_core/core_modules/customer_data
+  transaction_data:
+    path: ../semnox_core/core_modules/transaction_data
+  transaction_ui:
+    path: ../semnox_core/core_modules/transaction_ui
+  membership_data:
+    path: ../semnox_core/core_modules/membership_data
+  context_menu_data:
+    path: ../semnox_core/core_modules/context_menu_data
+  product_modifiers_ui:
+    path: ../semnox_core/core_modules/product_modifiers_ui
+  transaction_functions:
+    path: ../semnox_core/core_modules/transaction_functions
+  payment_ui:
+    path: ../semnox_core/core_modules/payment_ui
+  payment_data:
+    path: ../semnox_core/core_modules/payment_data
+  orders_ui:
+    path: ../semnox_core/core_modules/orders_ui
+  other_function_ui:
+    path: ../semnox_core/core_modules/other_function_ui
+  orders_data:
+    path: ../semnox_core/core_modules/orders_data
+  nfc:
+    path: ../semnox_core/core_modules/nfc
+  transaction_card_ui:
+    path: ../semnox_core/core_modules/transaction_card_ui
+  other_function_data:
+    path: ../semnox_core/core_modules/other_function_data
+  logs_data:
+    path: ../semnox_core/core_modules/logs_data
+  widgets_library:
+    path: ../semnox_core/core_modules/widgets_library
+  attendance_ui:
+    path: ../semnox_core/core_modules/attendance_ui
+  attendance_data:
+    path: ../semnox_core/core_modules/attendance_data
+  themes_library:
+    path: ../semnox_core/core_modules/themes_library
+  messages_data:
+    path: ../semnox_core/core_modules/messages_data
+  startup_data:
+    path: ../semnox_core/core_modules/startup_data
+  shift_tracking:
+    path: ../semnox_core/core_modules/shift_tracking
+  shift_tracking_data:
+    path: ../semnox_core/core_modules/shift_tracking_data
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  build_runner:
+  freezed:
+  json_serializable:
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - production.env
+    - development.env
+    - assets/
+    - assets/2x/
+    - assets/3x/
+    - assets/4x/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+   - family: RobotoCondensed
+     fonts:
+       - asset: fonts/RobotoCondensed-Bold.ttf
+       - asset: fonts/RobotoCondensed-Light.ttf
+       - asset: fonts/RobotoCondensed-Regular.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

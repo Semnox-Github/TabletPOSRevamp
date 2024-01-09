@@ -1,0 +1,4 @@
+enum AccountValidityStatus{
+  Valid,
+  Hold
+}

@@ -1,0 +1,1 @@
+const connectedPrinterMacAddress = "connected_printer_mac_address";

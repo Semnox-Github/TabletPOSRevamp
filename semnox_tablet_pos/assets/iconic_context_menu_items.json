@@ -1,0 +1,198 @@
+{
+  "dark_theme": [
+    {
+      "taskType": "HELP",
+      "taskTypeName": "Help",
+      "category" : "TRANSACTION FUNCTION",
+      "icon": "assets/ic_circle_exclamation.png"
+    },
+    {
+      "taskType": "PRINT",
+      "taskTypeName": "Print",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_print_light.png"
+    },
+    {
+      "taskType": "SEARCH",
+      "taskTypeName": "Search",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_search_light.png"
+    },
+    {
+      "taskType": "CANCEL",
+      "taskTypeName": "Cancel",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_cancel_light.png"
+    },
+    {
+      "taskType": "CANCEL",
+      "taskTypeName": "Cancel",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_cancel_light.png"
+    },
+    {
+      "taskType": "REVERSE",
+      "taskTypeName": "Reverse",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_reverse_light.png"
+    },
+    {
+      "taskType": "REVERSE",
+      "taskTypeName": "Reverse",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_reverse_light.png"
+    },
+    {
+      "taskType": "PROFILE",
+      "taskTypeName": "Profile",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_profile_light.png"
+    },
+    {
+      "taskType": "PROFILE",
+      "taskTypeName": "Profile",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_profile_light.png"
+    },
+    {
+      "taskType": "NON CHARGEABLE",
+      "taskTypeName": "Non chargeable",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_non_chargeable_light.png"
+    },
+    {
+      "taskType": "TRANSACTION DATE",
+      "taskTypeName": "Transaction Date",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_transaction_date_light.png"
+    },
+    {
+      "taskType": "RESET",
+      "taskTypeName": "Reset",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_reset_light.png"
+    },
+    {
+      "taskType": "SET COURSE",
+      "taskTypeName": "Set Course",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_set_course_light.png"
+    },
+    {
+      "taskType": "SET SEAT",
+      "taskTypeName": "Set Seat",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_set_seat_light.png"
+    },
+    {
+      "taskType": "REPEAT",
+      "taskTypeName": "Repeat",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_repeat_light.png"
+    },
+    {
+      "taskType": "SEARCH CLOSE",
+      "taskTypeName": "Search Close",
+      "category": "TRANSACTION FUNCTION",
+      "icon": "assets/ic_search_close_light.png"
+    }
+  ],
+  "light_theme": [
+    {
+      "taskType": "HELP",
+      "taskTypeName": "Help",
+      "category" : "TRANSACTION FUNCTION",
+      "icon": "assets/ic_circle_exclamation.png"
+    },
+    {
+      "taskType": "PRINT",
+      "taskTypeName": "Print",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_printer_1.png"
+    },
+    {
+      "taskType": "SEARCH",
+      "taskTypeName": "Search",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_search_1.png"
+    },
+    {
+      "taskType": "CANCEL",
+      "taskTypeName": "Cancel",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_trash_1.png"
+    },
+    {
+      "taskType": "CANCEL",
+      "taskTypeName": "Cancel",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_trash_1.png"
+    },
+    {
+      "taskType": "REVERSE",
+      "taskTypeName": "Reverse",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_reverse_1.png"
+    },
+    {
+      "taskType": "REVERSE",
+      "taskTypeName": "Reverse",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_reverse_1.png"
+    },
+    {
+      "taskType": "PROFILE",
+      "taskTypeName": "Profile",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_transaction_profile_1.png"
+    },
+    {
+      "taskType": "PROFILE",
+      "taskTypeName": "Profile",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_transaction_profile_1.png"
+    },
+    {
+      "taskType": "NON CHARGEABLE",
+      "taskTypeName": "Non chargeable",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_non_chargeable_1.png"
+    },
+    {
+      "taskType": "TRANSACTION DATE",
+      "taskTypeName": "Transaction Date",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_transaction_date_1.png"
+    },
+    {
+      "taskType": "RESET",
+      "taskTypeName": "Reset",
+      "category": "TRANSACTION HEADER FUNCTION",
+      "icon": "assets/ic_reset_1.png"
+    },
+    {
+      "taskType": "SET COURSE",
+      "taskTypeName": "Set Course",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_set_course_1.png"
+    },
+    {
+      "taskType": "SET SEAT",
+      "taskTypeName": "Set Seat",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_set_seat_1.png"
+    },
+    {
+      "taskType": "REPEAT",
+      "taskTypeName": "Repeat",
+      "category": "TRANSACTION LINE FUNCTION",
+      "icon": "assets/ic_repeat_1.png"
+    },
+    {
+      "taskType": "SEARCH CLOSE",
+      "taskTypeName": "Search Close",
+      "category": "TRANSACTION FUNCTION",
+      "icon": "assets/ic_search_close.png"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'complete_tip_request.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_CompleteTipRequest _$$_CompleteTipRequestFromJson(
+        Map<String, dynamic> json) =>
+    _$_CompleteTipRequest(
+      responseId: json['ResponseID'] as int,
+      transactionId: json['TransactionId'] as int,
+      invoiceNo: json['InvoiceNo'],
+      tokenId: json['TokenID'],
+      recordNo: json['RecordNo'],
+      dsixReturnCode: json['DSIXReturnCode'],
+      statusId: json['StatusID'] as int,
+      textResponse: json['TextResponse'],
+      acctNo: json['AcctNo'],
+      cardType: json['CardType'],
+      tranCode: json['TranCode'],
+      refNo: json['RefNo'],
+      purchase: json['Purchase'],
+      authorize: json['Authorize'],
+      authCode: json['AuthCode'],
+      processData: json['ProcessData'],
+      responseOrigin: json['ResponseOrigin'],
+      userTraceData: json['UserTraceData'],
+      captureStatus: json['CaptureStatus'],
+      acqRefData: json['AcqRefData'],
+      transactionPaymentGuid: json['TransactionPaymentGuid'],
+      creditCardName: json['CreditCardName'],
+      nameOnCreditCard: json['NameOnCreditCard'],
+      creditCardExpiry: json['CreditCardExpiry'],
+      amount: (json['Amount'] as num).toDouble(),
+      isActive: json['IsActive'] as bool,
+      guid: json['Guid'],
+      siteId: json['SiteId'] as int,
+      tipAmount: json['TipAmount'] as String,
+      masterEntityId: json['MasterEntityId'] as int,
+      customerCopy: json['CustomerCopy'],
+      merchantCopy: json['MerchantCopy'],
+      customerCardProfileId: json['CustomerCardProfileId'],
+      status: json['Status'] as String?,
+      isChanged: json['IsChanged'] as bool,
+      synchStatus: json['SynchStatus'] as bool,
+      transactionDatetime: json['TransactionDatetime'] as String?,
+    );
+
+Map<String, dynamic> _$$_CompleteTipRequestToJson(
+        _$_CompleteTipRequest instance) =>
+    <String, dynamic>{
+      'ResponseID': instance.responseId,
+      'TransactionId': instance.transactionId,
+      'InvoiceNo': instance.invoiceNo,
+      'TokenID': instance.tokenId,
+      'RecordNo': instance.recordNo,
+      'DSIXReturnCode': instance.dsixReturnCode,
+      'StatusID': instance.statusId,
+      'TextResponse': instance.textResponse,
+      'AcctNo': instance.acctNo,
+      'CardType': instance.cardType,
+      'TranCode': instance.tranCode,
+      'RefNo': instance.refNo,
+      'Purchase': instance.purchase,
+      'Authorize': instance.authorize,
+      'AuthCode': instance.authCode,
+      'ProcessData': instance.processData,
+      'ResponseOrigin': instance.responseOrigin,
+      'UserTraceData': instance.userTraceData,
+      'CaptureStatus': instance.captureStatus,
+      'AcqRefData': instance.acqRefData,
+      'TransactionPaymentGuid': instance.transactionPaymentGuid,
+      'CreditCardName': instance.creditCardName,
+      'NameOnCreditCard': instance.nameOnCreditCard,
+      'CreditCardExpiry': instance.creditCardExpiry,
+      'Amount': instance.amount,
+      'IsActive': instance.isActive,
+      'Guid': instance.guid,
+      'SiteId': instance.siteId,
+      'TipAmount': instance.tipAmount,
+      'MasterEntityId': instance.masterEntityId,
+      'CustomerCopy': instance.customerCopy,
+      'MerchantCopy': instance.merchantCopy,
+      'CustomerCardProfileId': instance.customerCardProfileId,
+      'Status': instance.status,
+      'IsChanged': instance.isChanged,
+      'SynchStatus': instance.synchStatus,
+      'TransactionDatetime': instance.transactionDatetime,
+    };
